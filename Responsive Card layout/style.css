@@ -27,3 +27,9 @@
     width: 100%;
     height: auto;
 }
+.card h2{
+    margin: 15px 0px;
+    font-size: 28px;
+    color: #1662a1;
+    font-family: sans-serif;
+}
