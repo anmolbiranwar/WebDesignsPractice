@@ -40,3 +40,10 @@
     margin-bottom: 20px;
     font-family: sans-serif;
 }
+
+@media screen and (max-width:768px) {
+    .container-section{
+        flex-direction: column;
+    }
+    
+}
