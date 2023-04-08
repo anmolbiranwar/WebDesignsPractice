@@ -48,5 +48,34 @@
     margin-top: 36px;
 }
 .primary-button,.secondary-button{
-    
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.primary-button{
+    background-color: #fff;
+    color: #0f1419;
+}
+.primary-button:hover{
+    background-color: #e6e6e6;
+}
+.secondary-button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #536471;
+}
+.secondary-button:hover{
+    background-color: #181919;
+}
+.sign-in-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.sign-in-button object{
+    width: 24px;
+    height: 24px;
 }
