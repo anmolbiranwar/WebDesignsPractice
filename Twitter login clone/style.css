@@ -83,21 +83,21 @@
 input::placeholder{
     opacity: 0;
 }
-input+label{
+input + label{
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 10px;
     color: #71767b;
-    font-size: 18px;
+    font-size: 16px;
     pointer-events: none;
     transition: 200ms ease;
 }
-input:focus{
+/* input:focus{
     outline: 1px solid #1d9bf0;
-}
-input:focus +label{
+} */
+/* input:focus +label{
     color: #1d9bf0;
-}
+} */
 input:not(:placeholder-shown)+label, input:focus + label{
     top: 6px;
     left: 10px;
@@ -126,7 +126,6 @@ input:not(:placeholder-shown)+label, input:focus + label{
     content: "";
     position: absolute;
     top: 50%;
-    transform: translate(-50%);
     width: 45%;
     height: 1px;
     background-color: #333639;
