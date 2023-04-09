@@ -79,3 +79,43 @@
     width: 24px;
     height: 24px;
 }
+input::placeholder{
+    opacity: 0;
+}
+input+label{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: #71767b;
+    font-size: 18px;
+    pointer-events: none;
+    transition: 200ms ease;
+}
+input:focus{
+    outline: 1px solid #1d9bf0;
+}
+input:focus +label{
+    color: #1d9bf0;
+}
+input:not(:placeholder-shown)+label, input:focus + label{
+    top: 6px;
+    left: 10px;
+    font-size: 12px;
+}
+.sign-up{
+    margin-top: 32px;
+    font-weight: 300;
+    text-align: center;
+}
+.sign-up a{
+    color: #1d9bf0;
+}
+.sign-up a:hover{
+    text-decoration: underline;
+    text-decoration-color: #1d9bf0;
+}
+.divider{
+    width: 100%;
+    margin-block: 20px;
+    position: relative;
+}
