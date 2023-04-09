@@ -3,6 +3,7 @@
     width: 100%;
     min-height: 85vh;
     background-color: #000;
+    color: white;
     padding: 24px 20px;
     border-radius: 16px;
     margin-inline: 2rem;
@@ -109,6 +110,7 @@ input:not(:placeholder-shown)+label, input:focus + label{
 }
 .sign-up a{
     color: #1d9bf0;
+    text-decoration: none;
 }
 .sign-up a:hover{
     text-decoration: underline;
@@ -118,4 +120,34 @@ input:not(:placeholder-shown)+label, input:focus + label{
     width: 100%;
     margin-block: 20px;
     position: relative;
+}
+.divider p::before,
+.divider p::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    width: 45%;
+    height: 1px;
+    background-color: #333639;
+}
+.divider p::before{
+    left: 0;
+}
+.divider p::after{
+    right: 0;
+}
+.email-log-in{
+    width: 100%;
+    position: relative;
+}
+.email-log-in input{
+    width: 100%;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #333639;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto";
 }
