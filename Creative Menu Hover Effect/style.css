@@ -31,3 +31,12 @@ ul li a{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
+
+a::before,
+a::after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-out;
+}
