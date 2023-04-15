@@ -14,3 +14,20 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    position: relative;
+    display: inline-block;
+    font-size: 88px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
