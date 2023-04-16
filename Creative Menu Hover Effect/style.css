@@ -40,3 +40,17 @@ a::after{
     left: 0;
     transition: 0.3s ease-out;
 }
+
+a:hover::before{
+    color: #bb0000;
+    transform: translate(12px, -12px);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+a:hover::after{
+    color: #77efff;
+    transform: translate(24px, -24px);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
