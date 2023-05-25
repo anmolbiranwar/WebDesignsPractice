@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header{
+    background-color: rgba(250, 150, 28, 0.836);
+    padding: 2px;
+    color: blue;
+}
+header h1{
+    margin: 10px;
+    padding-left: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding-right: 0;
+    width: 10;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+nav li a{
+    color: brown;
+    text-decoration: wavy;
+}
+a:hover{
+    color: rgb(50,20, 78);
+    border: 2px;
+}
+main{
+    padding: 20px;
+}
+article{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+article h2{
+    margin-top: 0;
+}
+footer{
+    background-color: coral;
+    padding: 20px;
+    text-align: center;
+}
+section{
+    padding: 20px;
+}
