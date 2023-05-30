@@ -1,0 +1,33 @@
+  h1{
+    font-family: serif;
+    text-align: center;
+  } 
+  table{
+    margin-left: 30px;
+  }
+  td{
+    height: 300px;
+    width: 150px;
+    border: 6px solid white;
+  } 
+  #one{
+    background: #9400D3;
+  }
+  #two{
+    background: #4B0082;
+  }
+  #three{
+    background: #0000ff;
+  }
+  #four{
+    background: #00ff00;
+  }
+  #five{
+    background: #ffff00;
+  }
+  #six{
+    background: #ff7f00;
+  }
+  #seven{
+    background: #ff0000;
+  }
