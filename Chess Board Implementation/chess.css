@@ -1,0 +1,14 @@
+table{
+    border: 3px groove red;
+    margin: 100px auto;
+}
+td{
+    height: 50px;
+    width: 50px;
+}
+#white{
+    background: white;
+}
+#black{
+    background: black;
+}
