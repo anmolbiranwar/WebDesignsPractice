@@ -1,0 +1,26 @@
+body{
+    font-family: 'josefin Sans' sans-serif;
+    background: #011627;
+    color: #fdfffc;
+    text-align: center;
+    border: 40px solid #2EC486;
+    border-top: 0px;
+    margin: 0px;
+}
+p{
+    padding-top: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+form{
+    font-size: 1.5em;
+    margin: 20px;
+}
+#sub{
+    background: #ff9f1c;
+    height: 80px;
+    width: 150px;
+    margin: 10px;
+    font-size: 1.5em;
+    border-radius: 25px;
+}
