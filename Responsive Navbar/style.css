@@ -6,7 +6,37 @@ body, html{
     background-image: url("525451792.jpg");
     background-size: cover;
 }
-.logo{
+nav .logo{
     color: white;
     font-size: 30px;
+    margin: 0 100px;
+    line-height: 80px;
+    font-weight: 600;
+    transition: 1s;
+}
+nav .logo:hover{
+    font-size: 32px;
+    color: red;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 8px 20px;
+    font-weight: 20px;
+    transition: 1s;
+}
+ul li a:hover{
+    background-color: transparent;
+    border: 1px solid rgb(243, 243, 243);
+    cursor: pointer;
+    font-size: 22px;
 }
