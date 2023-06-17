@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    background-image: url("525451792.jpg");
+    background-size: cover;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
